@@ -1,0 +1,24 @@
+body {
+	background-color:black;
+	background-repeat:no-repeat;
+	
+    color:white;
+	font-family:arial;
+	}
+	
+	a:link{text-decoration:none;
+			color:yellow;}
+	a:hover{background-color:blue;
+			text-decoration:underline;
+			color:white;
+	font-weight:bold;}
+	a:active{background-color:red;}
+	
+	a {color:yellow}
+	
+	h1 {text-align:center;}
+	
+	.bluetext {color:blue} 
+	.navybluetext {color:DodgerBlue}
+	.redtext {color:red}
+	.greentext {color:green}

@@ -1,0 +1,87 @@
+
+body {
+	
+	background-image:url(pictures/background.jpg);
+	background-color: #8fa7f7;
+	color: #ffff00;
+	
+	
+}
+
+a { 
+
+	color:orange;
+	 text-decoration: none;
+
+
+}
+
+.pagelayout {
+	
+	background-color: #2f3f73;
+	opacity: 0.80;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	
+	
+	
+}
+
+.black_text {
+	
+	color: #000000;
+	
+}
+
+
+
+.ind{ padding-left: 1em }
+.centerInd {padding-left: 7em}
+.quoteind {padding-left: 14em}
+
+h1 {
+	
+	text-align: center;
+}
+
+.headerlayout {
+	
+	background-color:#07123a;
+	padding-left: 1em;
+	
+	
+	
+}
+
+#self_intro {
+	
+	background-color:#07020a;
+	font-family:"Times New Roman", sans-serif;
+	
+	
+	
+}
+
+#personal_motto {
+	
+	
+	font-family:Arial, Helvetica, sans-serif;
+	
+	
+}
+
+#career_goals {
+	
+	
+	font-family:Florence, cursive;
+	
+}
+
+#texture1 {
+	
+	background-image:url(pictures/texture.jpg);
+	box-shadow: 2px 3px #000000;
+	
+	}
+

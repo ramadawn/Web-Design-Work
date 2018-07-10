@@ -78,7 +78,12 @@ header {
 	height: 150px;
 	width: 150px;
 	
+	
 }
+
+
+
+
 
 .double {
 	
@@ -98,126 +103,193 @@ header {
 	
 }
 
-.sunlink {
-	
-	text-align: center;
-	
-}
+
 
 .mercury {
 	
 	background-image: url(pictures/mercury.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
-	
+	background-size: contain;
 }
 
-.mercurylink {
+.mercury:hover {
 	
-	text-align: center;
+	height: 300px;
+	width: 300px;
+	background-image: url(pictures/mercurygod.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain
 	
-}
+	
+	}
+
+
 
 .venus {
 	
 	background-image: url(pictures/venus.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	
 	}
 	
-.venuslink {
+.venus:hover {
 	
-	text-align:center;
-}
+	height: 300px;
+	width: 300px;
+	background-image: url(pictures/venusgod.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+	
+	}
+	
+
 
 .mars {
 	
 	background-image: url(pictures/mars.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	
 	}
 	
-.marslink {
+.mars:hover {
 	
-	text-align:center;
-}
+	height: 300px;
+	width: 300px;
+	background-image: url(pictures/marsgod.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain
+	
+	
+	}
 
 .jupiter {
 	
 	background-image: url(pictures/jupiter.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	
 	}
 	
-.jupiterlink {
+.jupiter:hover {
 	
-	text-align:center;
-}
+	height: 300px;
+	width: 300px;
+	background-image: url(pictures/jupitergod.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+	
+	}
+	
+
 
 .saturn {
 	
 	background-image: url(pictures/saturn.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
+	transition-duration: 1000ms;
 	
 	}
 	
-.saturnlink {
+.saturn:hover {
 	
-	text-align:center;
-}
+	height: 150px;
+	width: 300px;
+	background-image: url(pictures/saturngod.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+	
+	}
+	
+
 
 .neptune {
 	
+	height: 300px;
+	width: 300px;
 	background-image: url(pictures/neptune.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	
 	}
 	
-.neptunelink {
+.neptune:hover {
 	
-	text-align:center;
-}
+	height: 300px;
+	width: 300px;
+	background-image: url(pictures/neptunegod.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+	
+	}
+	
+
 
 .uranus {
 	
 	background-image: url(pictures/uranus.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	
 	}
 	
-.uranuslink {
+.uranus:hover {
 	
-	text-align:center;
-}
+	height: 300px;
+	width: 300px;
+	background-image: url(pictures/uranusgod.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+	
+	}
+	
+	
+
 
 .pic {
 	
-	opacity:0.82;
+	
+	transition-duration: 1000ms;
 	
 	
 }
 
+
+
 .pic:hover {
 	
-	opacity:1;
+	
 	color:white;
+	height: 300px;
+	width: 300px;
 	
 	}
 	
-.link_box {
+
 	
+p {
+	text-align: center;
+	color: white;
 	
 }

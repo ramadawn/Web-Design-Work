@@ -1,0 +1,223 @@
+.T1 {grid-area:T1;}
+.T2 {grid-area:T2;}
+.T3 {grid-area:T3;}
+.T4 {grid-area:T4;}
+.T5 {grid-area:T5;}
+.T6 {grid-area:T6;}
+.T7 {grid-area:T7;}
+.T8 {grid-area:T8;}
+.T9 {grid-area:T9;}
+
+.UM1 {grid-area:UM1;}
+.UM2 {grid-area:UM2;}
+.UM3 {grid-area:UM3;}
+.UM4 {grid-area:UM4;}
+.UM5 {grid-area:UM5;}
+.UM6 {grid-area:UM6;}
+.UM7 {grid-area:UM7;}
+.UM8 {grid-area:UM8;}
+.UM9 {grid-area:UM9;}
+
+.M1 {grid-area:M1;}
+.M2 {grid-area:M2;}
+.M3 {grid-area:M3;}
+.M4 {grid-area:M4;}
+.M5 {grid-area:M5;}
+.M6 {grid-area:M6;}
+.M7 {grid-area:M7;}
+.M8 {grid-area:M8;}
+.M9 {grid-area:M9;}
+
+.LM1 {grid-area:LM1;}
+.LM2 {grid-area:LM2;}
+.LM3 {grid-area:LM3;}
+.LM4 {grid-area:LM4;}
+.LM5 {grid-area:LM5;}
+.LM6 {grid-area:LM6;}
+.LM7 {grid-area:LM7;}
+.LM8 {grid-area:LM8;}
+.LM9 {grid-area:LM9;}
+
+.B1 {grid-area:B1;}
+.B2 {grid-area:B2;}
+.B3 {grid-area:B3;}
+.B4 {grid-area:B4;}
+.B5 {grid-area:B5;}
+.B6 {grid-area:B6;}
+.B7 {grid-area:B7;}
+.B8 {grid-area:B8;}
+.B9 {grid-area:B9;}
+
+	body {background-image: url(pictures/nightsky.png);
+		  }
+
+.grid {
+	
+	
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto;
+	grid-template-areas: 
+						"T1  T2  T3  T4  T5  T6  T7  T8  T9"
+						"UM1 UM2 UM3 UM4 UM5 UM6 UM7 UM8 UM9"
+						"M1  M2  M3  M4  M5  M6  M7  M8  M9"
+						"LM1 LM2 LM3 LM4 LM5 LM6 LM7 LM8 LM9"
+						"B1  B2  B3  B4  B5  B6  B7  B8  B9";
+	
+}
+
+header {
+	
+	text-align:center;
+	color:white;
+	
+}
+
+.box {
+	
+	color: #FFFFFF;
+	height: 150px;
+	width: 150px;
+	
+}
+
+.double {
+	
+	color: #FFFFFF;
+	height: 150px;
+	width: 300px;
+	
+}
+
+.sun {
+	
+	background-image: url(pictures/thesun.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	
+}
+
+.sunlink {
+	
+	text-align: center;
+	
+}
+
+.mercury {
+	
+	background-image: url(pictures/mercury.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.mercurylink {
+	
+	text-align: center;
+	
+}
+
+.venus {
+	
+	background-image: url(pictures/venus.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	}
+	
+.venuslink {
+	
+	text-align:center;
+}
+
+.mars {
+	
+	background-image: url(pictures/mars.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	}
+	
+.marslink {
+	
+	text-align:center;
+}
+
+.jupiter {
+	
+	background-image: url(pictures/jupiter.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	}
+	
+.jupiterlink {
+	
+	text-align:center;
+}
+
+.saturn {
+	
+	background-image: url(pictures/saturn.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	}
+	
+.saturnlink {
+	
+	text-align:center;
+}
+
+.neptune {
+	
+	background-image: url(pictures/neptune.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	}
+	
+.neptunelink {
+	
+	text-align:center;
+}
+
+.uranus {
+	
+	background-image: url(pictures/uranus.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	}
+	
+.uranuslink {
+	
+	text-align:center;
+}
+
+.pic {
+	
+	opacity:0.82;
+	
+	
+}
+
+.pic:hover {
+	
+	opacity:1;
+	color:white;
+	
+	}
+	
+.link_box {
+	
+	
+}
